@@ -1,0 +1,19 @@
+.header {
+    display: grid;
+    justify-items: center;
+    margin-top: 69px;
+}
+
+.header__title {
+    font-size: xx-large;
+    font-weight: lighter;
+}
+
+.header__title--italic {
+    font-style: italic;
+}
+
+.header__copyRights {
+    margin-top: -20px;
+    font-size: 13px;
+}

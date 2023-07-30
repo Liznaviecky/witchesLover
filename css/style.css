@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
 
 *,
@@ -10,4 +11,15 @@ html {
 
 .backToEntrance {
     text-decoration: none;
+    margin-left: 13px;
+}
+
+.dedication {
+    margin: 6px;
+}
+
+.dedication__for {
+    margin-top: 0px;
+    font-size: 9px;
+    margin-left: 109px
 }

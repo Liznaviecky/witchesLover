@@ -1,7 +1,24 @@
 .list {
     list-style: none;
+    display: grid;
+    gap: 30px;
+    margin-left: -40px;
+    margin-top: 73px;
+    font-size: larger;
+    text-align: center;
+}
+
+.list--episodesList {
+    font-size: xx-large;
+    font-weight: lighter;
+    margin-top: 33px;
+    gap: 40px;
 }
 
 .list__link {
     text-decoration: none;
+}
+
+.list__item {
+    font-style: italic;
 }
