@@ -2,10 +2,31 @@
     list-style: none;
     display: grid;
     gap: 30px;
-    margin-left: -40px;
+    text-align: center;
+    margin-left: -44px;
     margin-top: 73px;
     font-size: larger;
-    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .list {
+        text-align: left;
+        margin-left: -32px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 900px) {
+    .list {
+        margin-left: -44px;
+        margin-top: 360px;
+    }
+}
+
+@media (min-width: 912px) and (max-width: 912px) {
+    .list {
+        margin-left: -44px;
+        margin-top: 444px;
+    }
 }
 
 .list--episodesList {
@@ -13,12 +34,21 @@
     font-weight: lighter;
     margin-top: 33px;
     gap: 40px;
+    margin-left: -50px;
+}
+
+@media (max-width: 600px) {
+    .list--episodesList {
+        text-align: center;
+    }
 }
 
 .list__link {
     text-decoration: none;
+    color: azure;
 }
 
 .list__item {
     font-style: italic;
+    box-shadow: inset 5px 4px 20px 7px azure;
 }

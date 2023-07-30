@@ -9,9 +9,17 @@ html {
     box-sizing: inherit;
 }
 
+.body {
+    background-image: url("../images/entranceBackground.png");
+    background-size: cover;
+    background-attachment: fixed;
+    color: azure;
+}
+
 .backToEntrance {
     text-decoration: none;
     margin-left: 13px;
+    color: azure;
 }
 
 .dedication {
