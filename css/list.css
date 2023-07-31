@@ -30,6 +30,11 @@
     .list {
         margin-left: -44px;
         margin-top: 360px;
+        font-size: xx-large;
+    }
+
+    .header__title {
+        font-size: xxx-large;
     }
 }
 
@@ -37,12 +42,15 @@
     .list {
         margin-left: -44px;
         margin-top: 444px;
+        font-size: xx-large;
+    }
+
+    .header__title {
+        font-size: xxx-large;
     }
 }
 
-
-
-.list__link {
+.list__item {
     text-decoration: none;
     color: azure;
 }
