@@ -8,10 +8,22 @@
     font-size: larger;
 }
 
+.list--episodesList {
+    font-size: xx-large;
+    font-weight: lighter;
+    margin-top: 33px;
+    gap: 40px;
+    margin-left: -50px;
+}
+
 @media (max-width: 600px) {
     .list {
         text-align: left;
         margin-left: -32px;
+    }
+
+    .list--episodesList {
+        text-align: center;
     }
 }
 
@@ -29,19 +41,7 @@
     }
 }
 
-.list--episodesList {
-    font-size: xx-large;
-    font-weight: lighter;
-    margin-top: 33px;
-    gap: 40px;
-    margin-left: -50px;
-}
 
-@media (max-width: 600px) {
-    .list--episodesList {
-        text-align: center;
-    }
-}
 
 .list__link {
     text-decoration: none;
