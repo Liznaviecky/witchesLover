@@ -1,7 +1,7 @@
 .list {
     list-style: none;
     display: grid;
-    gap: 30px;
+    gap: 69px;
     text-align: center;
     margin-left: -44px;
     margin-top: 73px;
@@ -15,7 +15,7 @@
     gap: 40px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     .list {
         text-align: left;
         margin-left: -32px;
@@ -26,23 +26,11 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 900px) {
+@media (min-width: 600px) and (max-width: 1000px) {
     .list {
         margin-left: -44px;
-        margin-top: 360px;
-        font-size: xx-large;
-    }
-
-    .header__title {
         font-size: xxx-large;
-    }
-}
-
-@media (min-width: 912px) and (max-width: 912px) {
-    .list {
-        margin-left: -44px;
-        margin-top: 444px;
-        font-size: xx-large;
+        gap: 86px;
     }
 
     .header__title {
