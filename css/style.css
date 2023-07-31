@@ -18,8 +18,10 @@ html {
 
 .backToEntrance {
     text-decoration: none;
+    margin-top: -54px;
     margin-left: 13px;
     color: azure;
+    position: fixed;
 }
 
 .backToEntrance:active {
