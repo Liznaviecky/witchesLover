@@ -13,7 +13,6 @@
     font-weight: lighter;
     margin-top: 33px;
     gap: 40px;
-    margin-left: -50px;
 }
 
 @media (max-width: 600px) {
