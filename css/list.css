@@ -10,32 +10,9 @@
 
 .list--episodesList {
     font-size: xx-large;
+    font-style: italic;
     font-weight: lighter;
     margin-top: 33px;
-    gap: 40px;
-}
-
-@media (max-width: 500px) {
-    .list {
-        text-align: left;
-        margin-left: -32px;
-    }
-
-    .list--episodesList {
-        text-align: center;
-    }
-}
-
-@media (min-width: 600px) and (max-width: 1000px) {
-    .list {
-        margin-left: -44px;
-        font-size: xxx-large;
-        gap: 86px;
-    }
-
-    .header__title {
-        font-size: xxx-large;
-    }
 }
 
 .list__item {
@@ -43,6 +20,9 @@
     color: azure;
 }
 
-.list__episode {
-    font-style: italic;
+@media (min-width: 700px) and (max-width: 1000px) {
+    .list {
+        font-size: xxx-large;
+        gap: 127px;
+    }
 }

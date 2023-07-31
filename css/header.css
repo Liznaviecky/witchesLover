@@ -5,8 +5,13 @@
 }
 
 .header__title {
-  
     font-weight: lighter;
+}
+
+@media (min-width: 700px) and (max-width: 1000px) {
+    .header__title {
+        font-size: xxx-large;
+    }
 }
 
 .header__title--italic {
