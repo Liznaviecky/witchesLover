@@ -18,11 +18,9 @@ html {
 
 .backToMenu {
     text-decoration: none;
-    margin-top: -54px;
     margin-left: 13px;
     color: azure;
     position: fixed;
-    padding-top: 30px;
 }
 
 .backToMenu:active {
@@ -31,8 +29,8 @@ html {
 }
 
 .dedication {
-    padding-top: 30px;
-    margin: 6px;
+    margin-top: 44px;
+    margin-left: 13px;
 }
 
 .dedication__for {

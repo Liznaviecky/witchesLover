@@ -19,13 +19,11 @@ html {
 .backToEpisodes {
     text-decoration: none;
     position: fixed;
-    margin-top: -91px;
     margin-left: 13px;
     color: darkgreen;
     box-shadow: inset 6px 4px 16px 0px darkseagreen;
     border-radius: 13px;
     padding: 6px;
-    padding-top: 30px;
 }
 
 .header {

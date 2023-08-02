@@ -23,8 +23,6 @@ html {
     font-size: smaller;
     position: fixed;
     margin-left: 13px;
-    margin-top: -59px;
-    padding-top: 30px;
 }
 
 .container {
@@ -32,7 +30,7 @@ html {
     gap: 69px;
     justify-content: center;
     margin: 30px;
-    margin-top: 69px;
+    margin-top: 100px;
 }
 
 .container__immage {
@@ -40,4 +38,5 @@ html {
     border-radius: 13px;
     max-width: 100%;
     max-height: 100%;
+    margin-top: 100px;
 }
