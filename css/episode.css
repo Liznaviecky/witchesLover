@@ -16,9 +16,12 @@ html {
 .backToEpisodes {
     text-decoration: none;
     position: fixed;
+    margin-top: -91px;
     margin-left: 13px;
-    margin-top: -93px;
-    color: black;
+    color: darkgreen;
+    box-shadow: inset 6px 4px 16px 0px darkseagreen;
+    border-radius: 13px;
+    padding: 6px;
 }
 
 .header {
@@ -42,4 +45,12 @@ html {
     font-size: smaller;
     margin-left: 49px;
     margin-top: -17px
+}
+
+.textBlock {
+    max-width: 1200px;
+    margin: 13px;
+    text-align: justify;
+    line-height: 1.2;
+    font-size: 30px;
 }
