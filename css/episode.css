@@ -27,9 +27,23 @@ html {
 .header {
     display: grid;
     justify-items: center;
-    margin: 100px;
+    margin: 100px;    
+}
+
+.header__title {
     font-style: italic;
     font-weight: lighter;
+    font-size: 69px;
+}
+
+.header__link {
+    text-decoration: none;
+    font-weight: lighter;
+    color: darkgreen;
+}
+
+.header__span {
+    font-size: 17px;
 }
 
 .note {
@@ -45,18 +59,18 @@ html {
     font-size: smaller;
     margin-left: 49px;
     margin-top: -17px;
-    margin-bottom: 40px;
+    margin-bottom: 69px;
 }
 
 .textBlock {
     max-width: 1200px;
-    margin: 13px;
+    margin: auto;
     text-align: justify;
-    line-height: 1.2;
+    line-height: 1.5;
     font-size: 30px;
 }
 
 .paragraph {
     text-indent: 6%;
-    margin-top: -17px;
+    margin-top: -27px;
 }
