@@ -11,6 +11,9 @@ html {
 
 .body {
     font-size: larger;
+    background-image: url("../images/oldPaper.jpg");
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .backToEpisodes {
