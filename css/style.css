@@ -22,6 +22,7 @@ html {
     margin-left: 13px;
     color: azure;
     position: fixed;
+    padding-top: 30px;
 }
 
 .backToMenu:active {
@@ -30,7 +31,7 @@ html {
 }
 
 .dedication {
-    padding-top: 13px;
+    padding-top: 30px;
     margin: 6px;
 }
 
