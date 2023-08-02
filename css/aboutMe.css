@@ -1,0 +1,42 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background-image: url("../images/mainTheme.png");
+    background-size: cover;
+    background-attachment: fixed;
+    color: azure;
+}
+
+.backToMenu {
+    text-decoration: none;
+    color: azure;
+    font-weight: lighter;
+    font-size: smaller;
+    position: fixed;
+    margin-left: 13px;
+    margin-top: -59px;
+}
+
+.container {
+    display: grid;
+    gap: 69px;
+    justify-content: center;
+    margin: 30px;
+    margin-top: 69px;
+}
+
+.container__immage {
+    border-style: ridge;
+    border-radius: 13px;
+    max-width: 100%;
+    max-height: 100%;
+}
