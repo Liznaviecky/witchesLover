@@ -24,6 +24,7 @@ html {
     position: fixed;
     margin-left: 13px;
     margin-top: -59px;
+    padding-top: 13px;
 }
 
 .container {
