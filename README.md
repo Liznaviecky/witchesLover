@@ -1,6 +1,6 @@
 # witchesLover
 # Daniel Krawczyk - this is my life project
-<img src="images/MenuBackground.png" width="40%" height="40%">
+<img src="images/menuBackground.png" width="40%" height="40%">
 <h2> Work in progress </h2>
 https://liznaviecky.github.io/witchesLover/
 <h3> Descritpion </h3>
