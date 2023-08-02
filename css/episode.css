@@ -1,0 +1,45 @@
+html {
+    box-sizing: border-box;
+    font-family: 'EB Garamond', serif;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-size: larger;
+}
+
+.backToEpisodes {
+    text-decoration: none;
+    position: fixed;
+    margin-left: 13px;
+    margin-top: -93px;
+    color: black;
+}
+
+.header {
+    display: grid;
+    justify-items: center;
+    margin: 100px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.note {
+    display: flex;
+    align-items: flex-start;
+    font-style: italic;
+    margin-left: 13px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.comment {
+    font-size: smaller;
+    margin-left: 49px;
+    margin-top: -17px
+}
