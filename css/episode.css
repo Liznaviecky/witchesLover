@@ -42,6 +42,7 @@ html {
     text-decoration: none;
     font-weight: lighter;
     color: darkgreen;
+    font-size: 20px;
 }
 
 .header__span {
@@ -69,7 +70,7 @@ html {
     margin: auto;
     text-align: justify;
     line-height: 1.5;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 @media (max-width: 600px) {
