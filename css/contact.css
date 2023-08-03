@@ -1,0 +1,41 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background-image: url("../images/mainTheme.png");
+    background-size: cover;
+    background-attachment: fixed; 
+    display: grid;
+    justify-content: center;
+    padding: 7%;
+    font-size: larger;
+}
+
+.backToMenu {
+    text-decoration: none;
+    color: azure;
+    font-size: small;
+}
+
+.backToMenu:active {
+    border-radius: 13px;
+    box-shadow: 0px 0px 13px 0px azure;
+}
+
+.container {
+    margin: 30px;
+}
+
+.contact {
+    color: azure;
+    text-decoration: none;
+    font-size: x-large;
+}
