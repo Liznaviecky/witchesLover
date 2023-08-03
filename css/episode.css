@@ -72,6 +72,12 @@ html {
     font-size: 30px;
 }
 
+@media (max-width: 600px) {
+    .textBlock {
+        margin: 13px;
+    }
+}
+
 .paragraph {
     text-indent: 6%;
     margin-top: -27px;
