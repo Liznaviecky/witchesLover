@@ -38,8 +38,8 @@ html {
 }
 
 .container {
-    max-width: 600px;
-    margin: auto;
+    max-width: 1000px;
+    margin: 30px;
     text-align: justify;
     font-size: larger;
 }
@@ -51,6 +51,9 @@ html {
 }
 
 .paragraph {
-    text-indent: 6%;
     margin-top: 40px;
+}
+
+.paragraph--last {
+    text-indent: 6%;
 }
