@@ -20,8 +20,8 @@ html {
     text-decoration: none;
     position: fixed;
     margin-left: 13px;
-    color: darkgreen;
-    box-shadow: inset 6px 4px 16px 0px darkseagreen;
+    color: olivedrab;
+    box-shadow: inset 6px 4px 16px 0px olive;
     border-radius: 13px;
     padding: 6px;
     margin-top: -30px
@@ -36,13 +36,12 @@ html {
 .header__title {
     font-style: italic;
     font-weight: lighter;
-    font-size: 50px;
 }
 
 .header__link {
     text-decoration: none;
     font-weight: lighter;
-    color: darkgreen;
+    color: olivedrab;
     font-size: 20px;
 }
 
@@ -67,7 +66,7 @@ html {
 }
 
 .textBlock {
-    margin: 40px;
+    margin: 30px;
     text-align: justify;
     line-height: 1.5;
     font-size: 25px;
@@ -76,6 +75,18 @@ html {
 @media (max-width: 600px) {
     .textBlock {
         margin: 13px;
+    }
+
+    .header__title {
+        font-size: 29px;
+    }
+
+    .backToEpisodes {
+        font-size: 13px;
+    }
+
+    .header__link {
+        font-size: 17px;
     }
 }
 
