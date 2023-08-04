@@ -70,11 +70,9 @@ html {
     gap: 69px;
     justify-content: center;
     margin-top: 73px;
-    font-size: larger;
 }
 
 .list--episodesList {
-    font-size: 25px;
     font-style: italic;
     font-weight: lighter;
     margin-top: 33px;
@@ -92,7 +90,6 @@ html {
 
 @media (min-width: 700px) and (max-width: 1000px) {
     .list {
-        font-size: xx-large;
         gap: 127px;
     }
 }
