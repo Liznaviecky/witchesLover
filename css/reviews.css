@@ -43,10 +43,9 @@ html {
 }
 
 .container {
-    max-width: 600px;
+    max-width: 700px;
     margin-top: 69px;
     text-align: justify;
-    font-size: larger;
 }
 
 @media (max-width: 600px) {

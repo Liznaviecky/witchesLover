@@ -37,11 +37,13 @@ html {
     padding: 43px;
 }
 
+.main {
+    display: grid;
+    justify-content: center;
+}
+
 .container {
-    max-width: 1000px;
-    margin: 30px;
-    text-align: justify;
-    font-size: larger;
+    max-width: 700px;
 }
 
 @media (max-width: 600px) {
