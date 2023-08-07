@@ -59,6 +59,11 @@ html {
     line-height: 1.5;
 }
 
+.note--song {
+    padding-bottom: 56px;
+    margin: auto;
+}
+
 .comment {
     max-width: 500px;
     font-size: smaller;
