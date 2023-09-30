@@ -16,13 +16,24 @@ html {
     color: azure;
 }
 
+.main {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    justify-content: center;
+}
+
+.list {
+    list-style: none;
+    display: grid;
+    gap: 39px;
+    font-size: small;
+    position: fixed;
+    margin-left: -23px;
+}
+
 .backToMenu {
     text-decoration: none;
     color: azure;
-    font-weight: lighter;
-    font-size: 17px;
-    position: fixed;
-    margin-left: 13px;
 }
 
 .container {
