@@ -43,10 +43,11 @@ html {
 .list {
     list-style: none;
     display: grid;
-    gap: 69px;
+    gap: 39px;
     font-size: small;
-    margin-top: -170px;
     position: fixed;
+    margin-left: -23px;
+    margin-top: -201px;
 }
 
 .container {
