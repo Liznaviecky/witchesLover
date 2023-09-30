@@ -63,6 +63,7 @@ html {
     .list {
         padding: 13px;
         font-size: xx-small;
+        margin-left: 0px;
     }
 }
 
