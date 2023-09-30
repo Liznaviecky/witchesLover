@@ -18,9 +18,7 @@ html {
 
 .backToMenu {
     text-decoration: none;
-    margin-left: 13px;
     color: azure;
-    position: fixed;
 }
 
 .backToMenu:active {
@@ -36,6 +34,7 @@ html {
 
 .header__title {
     font-weight: lighter;
+    font-size: large;
 }
 
 .header__title--italic {
@@ -47,27 +46,47 @@ html {
     font-size: 13px;
 }
 
+.main {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    justify-content: center;
+}
+
 .list {
     list-style: none;
     display: grid;
-    gap: 69px;
-    justify-content: center;
-    margin-top: 73px;
-    font-size: larger;
+    gap: 39px;
+    font-size: small;
+    position: fixed;
+    margin-left: -23px;
 }
 
-.list--episodesList {
+.episodesList {
+    list-style: none;
+    display: grid;
+    gap: 69px;
+    margin-top: 33px;
+    justify-content: center;
+}
+
+.episodesList__item {
     font-style: italic;
     font-weight: lighter;
-    margin-top: 33px;
-}
-
-.list__item {
     text-decoration: none;
     color: azure;
 }
 
-.list__item:active {
+.episodesList__item:active {
     border-radius: 13px;
     box-shadow: 0px 0px 13px 0px azure;
+}
+
+@media (max-width: 600px) {
+    .episodesList {
+        justify-content: flex-end;
+    }
+
+    .episodesList__item {
+        padding-right: 13px;
+    }
 }
