@@ -13,16 +13,26 @@ html {
     background-image: url("../images/mainTheme.png");
     background-size: cover;
     background-attachment: fixed; 
+}
+
+.main {
     display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
-    padding: 7%;
-    font-size: larger;
+}
+
+.list {
+    list-style: none;
+    display: grid;
+    gap: 39px;
+    font-size: small;
+    position: fixed;
+    margin-left: -23px;
 }
 
 .backToMenu {
     text-decoration: none;
     color: azure;
-    font-size: small;
 }
 
 .backToMenu:active {
