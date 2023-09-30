@@ -22,12 +22,12 @@ html {
     gap: 69px;
     font-size: small;
     margin-top: -170px;
+    position: fixed;
 }
 
 .backToMenu {
     text-decoration: none;
     color: azure;
-    position: fixed;
 }
 
 .backToMenu:active {

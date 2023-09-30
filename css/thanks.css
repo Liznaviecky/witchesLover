@@ -18,10 +18,7 @@ html {
 
 .backToMenu {
     text-decoration: none;
-    margin-left: 13px;
     color: azure;
-    position: fixed;
-    margin-top: -23px;
 }
 
 .backToMenu:active {
@@ -39,7 +36,17 @@ html {
 
 .main {
     display: grid;
+    grid-template-columns: 1fr 3fr;
     justify-content: center;
+}
+
+.list {
+    list-style: none;
+    display: grid;
+    gap: 69px;
+    font-size: small;
+    margin-top: -170px;
+    position: fixed;
 }
 
 .container {
