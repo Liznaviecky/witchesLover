@@ -27,23 +27,8 @@ html {
 }
 
 .header {
-    display: grid;
-    justify-items: center;
-    margin-top: 69px;
-}
-
-.header__title {
     font-weight: lighter;
     font-size: large;
-}
-
-.header__title--italic {
-    font-style: italic;
-}
-
-.header__copyRights {
-    margin-top: -20px;
-    font-size: 13px;
 }
 
 .main {
